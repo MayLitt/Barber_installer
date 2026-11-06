@@ -1,0 +1,27 @@
+{
+  "name": "Maison Lemoine, coiffeur barbier",
+  "address": "8 rue de la Paix, 92100 Boulogne-Billancourt",
+  "phone": "09 39 20 32 73",
+  "category": "Coiffeur barbier",
+  "hours": {"mon": "closed", "tue": "09:30-19:30", "wed": "09:30-19:30", "thu": "09:30-19:30", "fri": "09:30-19:30", "sat": "09:00-18:30", "sun": "closed"},
+  "services": [
+    {"name": "Coupe homme", "price_eur": 28, "staff": ["Karim", "Julien"]},
+    {"name": "Coupe homme dégradé", "price_eur": 32, "staff": ["Karim"]},
+    {"name": "Coupe femme cheveux courts", "price_eur": 38, "staff": ["Sophie"]},
+    {"name": "Coupe femme cheveux longs", "price_eur": 48, "staff": ["Sophie"]},
+    {"name": "Coupe enfant jusqu'à 12 ans", "price_eur": 18},
+    {"name": "Taille de barbe", "price_eur": 16, "staff": ["Julien"]},
+    {"name": "Rasage à l'ancienne serviette chaude", "price_eur": 26, "staff": ["Julien"]},
+    {"name": "Coupe + barbe", "price_eur": 42, "staff": ["Karim", "Julien"]},
+    {"name": "Shampoing et brushing", "price_eur": 30, "staff": ["Sophie"]},
+    {"name": "Couleur racines", "price_eur": 55, "staff": ["Sophie"]},
+    {"name": "Balayage", "price_eur": 95, "staff": ["Sophie"]},
+    {"name": "Soin profond", "price_eur": 15}
+  ],
+  "staff": [
+    {"first_name": "Karim", "specialties": ["coupes homme", "dégradés"]},
+    {"first_name": "Sophie", "specialties": ["femme", "couleurs"]},
+    {"first_name": "Julien", "specialties": ["barbe", "rasage"]}
+  ],
+  "rules": {"walk_in": "Le salon fonctionne sur rendez-vous."}
+}
